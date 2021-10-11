@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_night"
+    android:weightSum="2">
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hà Nội"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingTop="80dp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nhiều mây"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tvCurrentTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="27\u2070"
+        android:textSize="90sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rvListHour" />
+
+
+</LinearLayout>
